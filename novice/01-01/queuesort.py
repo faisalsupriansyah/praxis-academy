@@ -19,9 +19,9 @@ def No2():
     s = queue()
     k=''
     while True:
-        banyak = int(input('Masukan banyak orang yang ingin ada di permainan = '))
+        banyak = int(input('masukan jumlah antrian = '))
         for j in range(banyak):
-            orang = input('Masukan nama orang ke %i yang masuk di antrian = '%(j+1))
+            orang = input('Masukan variabel %i yang masuk di antrian = '%(j+1))
             enqueue(s,orang)
         s.reverse()
         print('Orang yang berada di Antrian %s'%s)
