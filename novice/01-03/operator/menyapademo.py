@@ -1,0 +1,3 @@
+import menyapa
+
+menyapa.sapa()
